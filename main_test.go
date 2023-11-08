@@ -5,6 +5,10 @@ import (
 	"testing"
 )
 
+// GORM_REPO: https://github.com/go-gorm/gorm.git
+// GORM_BRANCH: master
+// TEST_DRIVERS: sqlite, mysql, postgres, sqlserver
+
 // TestTwitter1722317893096874229 explains https://gorm.io/docs/query.html#Selecting-Specific-Fields
 func TestTwitter1722317893096874229(t *testing.T) {
 	var users []User
